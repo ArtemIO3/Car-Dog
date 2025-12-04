@@ -117,18 +117,17 @@ int main()
 	switch (choice)
 	{
 	case 1:
-	iprint  = new Car("bmw", 2000, "red", 4, 5);
-	break;
+		iprint = new Car("bmw", 2000, "red", 4, 5);
+		break;
 	case 2:
-	iprint = new Airplane("boing", 50000, "white", 6, 300, 2);
-	break;
+		iprint = new Airplane("boing", 50000, "white", 6, 300, 2);
+		break;
 	case 3:
-	iprint = new Dog("rex", 20, 3, "black", "shepherd");
-	break;
+		iprint = new Dog("rex", 20, 3, "black", "shepherd");
+		break;
 	case 4:
-	iprint = new Penguin("pingu", 15, 5, "white-black", 10);
-	break;
+		iprint = new Penguin("pingu", 15, 5, "white-black", 10);
+		break;
 	}
-
 	iprint->PrintConsole();
 }
